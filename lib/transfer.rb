@@ -4,6 +4,8 @@ class Transfer
   attr_writer 
   def initialize(sender, receiver, amt)
     @sender = sender
+    @receiver = receiver
+    @
   end 
   
 end
